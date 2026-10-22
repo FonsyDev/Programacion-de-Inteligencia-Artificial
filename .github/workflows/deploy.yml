@@ -31,7 +31,9 @@ jobs:
         run: npm run build:all
 
       - name: Copy global portal to dist root
-        run: cp index.html dist/index.html
+        run: |
+           mkdir -p dist
+           cp index.html dist/index.html
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
