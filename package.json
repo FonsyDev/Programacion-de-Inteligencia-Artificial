@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@slidev/cli": "^53.0.0",
-    "@slidev/theme-default": "latest"
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
   }
 }
