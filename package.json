@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "build:pia-1": "slidev build PIA-1/slides.md --out dist/PIA-1 --base /Programacion-de-Inteligencia-Artificial/PIA-1/",
+    "build:all": "npm run build:pia-1"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^53.0.0",
+    "@slidev/theme-default": "^latest"
+  }
+}

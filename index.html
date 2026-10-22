@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligencia Artificial (ASIR)</title>
+    <style>
+        :root {
+            --primary: #059669;
+            --primary-hover: #047857;
+            --bg: #f0fdf4;
+            --card-bg: #ffffff;
+            --text-main: #064e3b;
+            --text-muted: #374151;
+            --border: #d1fae5;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+        header { border-bottom: 2px solid #a7f3d0; padding-bottom: 20px; margin-bottom: 40px; }
+        h1 { font-size: 2.2rem; margin-bottom: 6px; }
+        .meta-info { display: flex; flex-direction: column; gap: 4px; }
+        .subtitle { color: var(--primary-hover); font-size: 1.1rem; font-weight: 600; margin: 0; }
+        .teacher-info { color: var(--text-muted); font-size: 0.95rem; font-weight: 500; margin: 0; }
+        .grid { display: grid; gap: 20px; }
+        .unit-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .unit-card:hover { transform: translateY(-2px); border-color: var(--primary); }
+        .unit-info h2 { margin: 0 0 8px 0; font-size: 1.25rem; }
+        .unit-info p { margin: 0; color: var(--text-muted); font-size: 0.95rem; }
+        .btn-link {
+            background-color: var(--primary);
+            color: white;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .btn-link:hover { background-color: var(--primary-hover); }
+        .unit-card.disabled { opacity: 0.6; pointer-events: none; border-style: dashed; }
+        .badge-soon { background: #e5e7eb; color: #6b7280; padding: 6px 12px; border-radius: 4px; font-size: 0.85rem; font-weight: 600; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programación de Inteligencia Artificial</h1>
+        <div class="meta-info">
+            <p class="subtitle">Inteligencia Artificial y Big Data</p>
+            <p class="teacher-info">Profesor: Alfonso Amor Camacho</p>
+        </div>
+    </header>
+    <main class="grid">
+        <div class="unit-card">
+            <div class="unit-info">
+                <h2>Unidad 1: Ecosistema de la IA y Primeros Pasos con Python</h2>
+                <p>Conceptos fundamentales, Machine Learning y modelos básicos con Slidev.</p>
+            </div>
+            <a href="PIA-1/" class="btn-link">Ver Presentación →</a>
+        </div>
+        <div class="unit-card disabled">
+            <div class="unit-info">
+                <h2>Unidad 2: Plataformas Cloud y Consumo de APIs en Python</h2>
+                <p>Estructura de redes multicapa y entrenamiento básico.</p>
+            </div>
+            <span class="badge-soon">En desarrollo</span>
+        </div>
+        <div class="unit-card disabled">
+            <div class="unit-info">
+                <h2>Unidad 3: Entornos de Modelado Rápido (No-Code/Low-Code)</h2>
+                <p>Estructura de redes multicapa y entrenamiento básico.</p>
+            </div>
+            <span class="badge-soon">En desarrollo</span>
+        </div>
+        <div class="unit-card disabled">
+            <div class="unit-info">
+                <h2>Unidad 4: Análisis Exploratorio de Datos (EDA) con Python</h2>
+                <p>Estructura de redes multicapa y entrenamiento básico.</p>
+            </div>
+            <span class="badge-soon">En desarrollo</span>
+        </div>
+        <div class="unit-card disabled">
+            <div class="unit-info">
+                <h2>Unidad 5: Aprendizaje Automático con Scikit-Learn</h2>
+                <p>Estructura de redes multicapa y entrenamiento básico.</p>
+            </div>
+            <span class="badge-soon">En desarrollo</span>
+        </div>
+        <div class="unit-card disabled">
+            <div class="unit-info">
+                <h2>Unidad 6: Redes Neuronales Profundas (TensorFlow, Keras y PyTorch)</h2>
+                <p>Estructura de redes multicapa y entrenamiento básico.</p>
+            </div>
+            <span class="badge-soon">En desarrollo</span>
+        </div>
+        <div class="unit-card disabled">
+            <div class="unit-info">
+                <h2>Unidad 7: Convergencia Tecnológica (IoT, Cloud y Blockchain)</h2>
+                <p>Estructura de redes multicapa y entrenamiento básico.</p>
+            </div>
+            <span class="badge-soon">En desarrollo</span>
+        </div>
+        <div class="unit-card disabled">
+            <div class="unit-info">
+                <h2>Unidad 8: Automatización Industrial y Retorno de Negocio</h2>
+                <p>Estructura de redes multicapa y entrenamiento básico.</p>
+            </div>
+            <span class="badge-soon">En desarrollo</span>
+        </div>
+    </main>
+</body>
+</html>
