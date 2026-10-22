@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build:pia-1": "npx slidev build PIA-1/slides.md --out dist/PIA-1 --base /Programacion-de-Inteligencia-Artificial/PIA-1/",
-    "build:all": "mkdir -p dist/PIA-1 && npm run build:pia-1"
+    "build:all": "echo 'Iniciando compilacion...' && npm run build:pia-1 && echo 'Compilacion terminada' && ls -la dist"
   },
   "devDependencies": {
     "@slidev/cli": "^53.0.0",
