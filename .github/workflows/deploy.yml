@@ -34,6 +34,7 @@ jobs:
         run: |
            mkdir -p dist
            cp index.html dist/index.html
+           touch dist/.nojekyll
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
