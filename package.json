@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build:pia-1": "npx slidev build PIA-1/slides.md --out dist/PIA-1 --base /Programacion-de-Inteligencia-Artificial/PIA-1/",
+    "build:pia-1": "npx slidev build PIA-1/slides.md --out $(pwd)/dist/PIA-1 --base /Programacion-de-Inteligencia-Artificial/PIA-1/",
     "build:all": "npm run build:pia-1"
   },
   "devDependencies": {
